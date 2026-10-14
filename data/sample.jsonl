@@ -1,0 +1,8 @@
+{"level":"INFO","message":"Health check passed","endpoint":"/health","duration_ms":12}
+{"level":"INFO","message":"Users fetched","endpoint":"/users","duration_ms":120}
+{"level":"ERROR","message":"Database timeout","endpoint":"/users","duration_ms":850}
+{"level":"INFO","message":"Health check passed","endpoint":"/health","duration_ms":8}
+{"level":"WARNING","message":"Slow query","endpoint":"/users","duration_ms":400}
+{"level":"ERROR","message":"Database timeout","endpoint":"/users","duration_ms":950}
+{"level":"CRITICAL","message":"Payment provider unavailable","endpoint":"/payments","duration_ms":1200}
+{"level":"INFO","message":"Payment completed","endpoint":"/payments","duration_ms":200}
