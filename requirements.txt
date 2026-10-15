@@ -1,0 +1,2 @@
+# The application uses only the standard library; pytest is a development tool.
+pytest>=8.3,<10
